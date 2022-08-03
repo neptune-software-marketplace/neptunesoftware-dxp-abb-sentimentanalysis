@@ -1,0 +1,67 @@
+{
+	"id": "1abf51ec-08cd-4217-a5aa-974fabf71b83",
+	"createdAt": "2022-02-04T16:11:19.100Z",
+	"createdBy": "lloyd",
+	"auth": [],
+	"endpoints": [],
+	"paths": [
+		{
+			"id": "36485C2A-F810-4DE3-88B3-5AF3A15D4330",
+			"method": "GET",
+			"path": "/AnalyseThisText",
+			"description": "",
+			"parameters": [
+				{
+					"name": "text",
+					"description": "",
+					"required": true,
+					"inPath": false,
+					"value": "",
+					"default": "I love this chair",
+					"example": ""
+				}
+			],
+			"headers": [],
+			"responses": [
+				{
+					"status": "200",
+					"description": "OK",
+					"headers": [],
+					"body": []
+				},
+				{
+					"status": "401",
+					"description": "NOT OK",
+					"headers": [],
+					"body": []
+				}
+			],
+			"serverScript": "2A7DB6D2-C24D-4462-AFA2-B194999ECD0D"
+		}
+	],
+	"definitions": [],
+	"documentation": [],
+	"name": "DeepAiSentiment",
+	"endpoint": "/api/serverscript/deepaisentiment",
+	"ver": "22.8.3.716",
+	"version": null,
+	"description": null,
+	"mediaType": null,
+	"securitySchemes": null,
+	"swaggerURI": null,
+	"swaggerSystem": null,
+	"apiType": "script",
+	"about": null,
+	"enableProxy": false,
+	"restrictAccess": false,
+	"enableTrace": true,
+	"enableIDE": true,
+	"internalAPI": false,
+	"isPublic": false,
+	"tlsAllowUntrusted": false,
+	"useOwnProcess": false,
+	"package": "7f3706fb-fb12-ed11-bd6e-000d3ab1d9ff",
+	"apiGroup": null,
+	"apiFormat": 0,
+	"roles": []
+}

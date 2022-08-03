@@ -1,0 +1,55 @@
+{
+	"id": "7F3706FB-FB12-ED11-BD6E-000D3AB1D9FF",
+	"createdAt": "2022-08-03T07:14:58.610Z",
+	"createdBy": "kristin.eliassen@neptune-software.com",
+	"git": {
+		"targetServers": [],
+		"remote": "https://github.com/neptune-software-marketplace/neptunesoftware-dxp-abb-sentimentanalysis",
+		"testServers": []
+	},
+	"name": "neptunesoftware-dxp-abb-sentimentanalysis",
+	"description": null,
+	"ver": "22.8.3.715",
+	"enableCICD": true,
+	"apps": [
+		{
+			"id": "91251BC1-318E-EB11-85AA-000D3AB08500",
+			"ver": "22.8.3.915",
+			"application": "neptbb_speechsentimentanalisys",
+			"title": "Tech",
+			"description": "Speech to Sentiment Analysis"
+		}
+	],
+	"api": [
+		{
+			"id": "1ABF51EC-08CD-4217-A5AA-974FABF71B83",
+			"name": "DeepAiSentiment",
+			"ver": "22.8.3.716",
+			"description": null,
+			"apiGroup": null
+		}
+	],
+	"odataMock": [],
+	"odataSource": [],
+	"dictionary": [],
+	"jsclass": [],
+	"jsscript_group": [],
+	"theme": [],
+	"pdf": [],
+	"rulesengine": [],
+	"reports": [],
+	"api_authentication": [],
+	"api_group": [],
+	"tile": [],
+	"category": [],
+	"launchpad": [],
+	"certificates": [],
+	"role": [],
+	"systems": [],
+	"doc": [],
+	"wf_notifications": [],
+	"wf_definition": [],
+	"department": [],
+	"script_scheduler": [],
+	"connector": []
+}
